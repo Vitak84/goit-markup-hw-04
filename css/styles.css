@@ -173,7 +173,7 @@ img {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        block-size: cover;
+        background-size: cover;
 }
 
 .hero-title {
@@ -456,6 +456,7 @@ img {
 
 .sort-btn:hover,
 .sort-btn:focus {
+        border-color:#4D5AE5 ;
         color: #FFFFFF;
         background-color: var(--active-color);
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -483,6 +484,7 @@ img {
 .benefits-text-container{
         padding: 32px 16px;
         border: 1px solid #E7E9FC;
+        border-top: none;
 }
 
 .benefits-subtitle {
@@ -546,8 +548,8 @@ width: 208px;
         margin-bottom: 16px;
 
         font-weight: 500;
-        font-size: 1.5;
-        line-height: 24px;
+        font-size: 16px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: left;
         color: #FFFFFF;
